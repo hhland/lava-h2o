@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uhealin</groupId>
+  <artifactId>lava-h2o</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>lava-h2o</name>
+
+  <properties>
+     <h2o.version>3.24.0.2</h2o.version>
+  </properties>
+
+<dependencies>
+
+     <dependency>
+        <groupId>ai.h2o</groupId>
+        <artifactId>h2o-core</artifactId>
+        <version>${h2o.version}</version>
+     </dependency>
+
+
+
+</dependencies>
+
+</project>
+
+
+<!-- 
+
+
+def h2oProjectVersion = "3.24.0.2"
+
+repositories {
+ maven {
+  url "http://h2o-release.s3.amazonaws.com/h2o/rel-yates/2/maven/repo/"
+ }
+}
+
+dependencies {
+ compile "ai.h2o:h2o-algos:${h2oProjectVersion}"
+ compile "ai.h2o:h2o-app:${h2oProjectVersion}"
+ compile "ai.h2o:h2o-core:${h2oProjectVersion}"
+ compile "ai.h2o:h2o-genmodel:${h2oProjectVersion}"
+ compile "ai.h2o:h2o-persist-hdfs:${h2oProjectVersion}"
+ compile "ai.h2o:h2o-web:${h2oProjectVersion}"
+}
+
+ -->
+
